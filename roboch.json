@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/rr-learning/rrc_example_package.git",
+  "branch": "master",
+  "email": "takuma@ttic.edu",
+  "singularity_image": "rrc-phase2-base.sif"
+}
