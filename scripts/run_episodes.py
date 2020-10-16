@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
 import numpy as np
-from code.training_env import make_training_env
-from code.training_env.env import ActionType
-import move_cube
-import cube_env
+from rrc_example_package.code.training_env import make_training_env
+from rrc_example_package.code.training_env.env import ActionType
+import rrc_example_package.move_cube
+import rrc_example_package.cube_env
 
 # env = make_training_env(visualization=False, **eval_config)
 # env.unwrapped.initializer = initializer
