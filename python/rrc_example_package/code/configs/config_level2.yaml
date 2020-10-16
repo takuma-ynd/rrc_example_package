@@ -1,0 +1,7 @@
+# This is an example config for train_ppo.py that can be used to run it locally.
+logdir: ./test_logs
+base_config: ./configs/residual_ppo.gin
+gin_bindings:
+    make_pybullet_env.termination_fn: position_close_to_goal
+    make_pybullet_env.reward_fn: task2_reward_reg
+    make_pybullet_env.initializer: task2_init
