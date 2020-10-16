@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import numpy as np
-from rrc_example_package.code.training_env import make_training_env
+# from rrc_example_package.code.training_env import make_training_env
 from rrc_example_package.code.training_env.env import ActionType
 import rrc_example_package.move_cube
 import rrc_example_package.cube_env
